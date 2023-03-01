@@ -45,7 +45,7 @@ main {
   /** grootte die gegeven wordt aan het eerste child   **/
   /*  20 cm op een 1920x1080 scherm */
   max-width: 735px;
-  max-height: 500px;
+  max-height: 530px;
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }
 h5 {
@@ -53,6 +53,7 @@ h5 {
   font-size: 1.5rem;
 }
 .flex-container-main {
+  max-height: 530px;
   display: flex;
   flex-direction: row; /* default */
   justify-content: center;
@@ -60,7 +61,7 @@ h5 {
 }
 
 .flex-container-links {
-  flex-basis: 367px;
+  /* flex-basis: 365px; */
   background: linear-gradient(var(--kl-leisteen-), var(--kl-koninklijk-));
   color: var(--kl-lichtblauw-);
   border-radius: 2rem;
@@ -98,10 +99,10 @@ h3 {
   font-size: 2rem;
 }
 .linkerkant {
-  flex-basis: 367px;
+  flex-basis: 365px;
 }
 .rechterkant {
-  flex-basis: 367px;
+  flex-basis: 365px;
 }
 
 .flex-container-rechts {
